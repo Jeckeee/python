@@ -1,10 +1,7 @@
-n = int(input("Введите число >>> "))
+n = input("Введите число >>> ")
 
-t = str(n)
-
-n2 = t + t
-n3 = t + t + t
-total = n + int(n2) + int(n3)
+n2 = n + n
+n3 = n + n + n
+total = int(n) + int(n2) + int(n3)
 
 print(f"{n} + {n2} + {n3} = {total}")
-
