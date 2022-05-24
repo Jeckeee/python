@@ -8,7 +8,6 @@
 count_list = int(input("Количество элементов списка >>> "))
 
 my_list = []
-counter_list = 0
 counter = 0
 
 for el_list in range(count_list):
