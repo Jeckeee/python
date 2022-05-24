@@ -5,7 +5,7 @@
 Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 """
 
-list_type = ["task", 1, None, True, [], {}]
+list_type = ["task", 1, None, True, [], {}, ()]
 
 for el_list in list_type:
-    print({type(el_list)})
+    print(type(el_list))
